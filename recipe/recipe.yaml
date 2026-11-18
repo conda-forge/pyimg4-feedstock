@@ -10,7 +10,7 @@ source:
   sha256: dd2d2a00573bdce3120d5d2a10a645727a1147930e45e67e40c79ad6061ce0dd
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       UV_DYNAMIC_VERSIONING_BYPASS: ${{ version }}
